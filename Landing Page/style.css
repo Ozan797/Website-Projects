@@ -1,0 +1,49 @@
+body {
+  background-color: #2e2e2e;
+}
+
+nav {
+  background: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: default;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px;
+}
+nav a:hover {
+  background-color: rgb(117, 110, 110);
+  color: #2e2e2e;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.intro {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro h1 {
+  background: -webkit-linear-gradient(rgb(255, 0, 179), rgb(242, 255, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 10em;
+  font-weight: bold;
+  margin: 0;
+}
+
